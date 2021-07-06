@@ -122,9 +122,6 @@ namespace APMv2.Controllers
                         Description = listTask[i].Description,
                         Note = listTask[i].Note,
                         EstimatedTime = listTask[i].EstimatedTime,
-
-
-
                     };
                     _context.Tasks.Add(newTask);
                 }
